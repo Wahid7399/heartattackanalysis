@@ -1,0 +1,62 @@
+<div class="main">
+    <style>
+        table {
+          font-family: Arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+    
+        th, td {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+      </style>
+    <div class="graph">
+        <h1><center>95% Confidence Intervals of Data </center></h1>
+<% data=data[0] %>
+        <table>
+
+          <tr>
+            <th>Variable</th>
+            <th>Confidence Interval</th>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td>[ <%- data.age %> ]</td>
+          </tr>
+
+          <tr>
+            <td>Creatinine Phosphokinase</td>
+            <td>[ <%- data.creatinine_phosphokinase %> ]</td>
+          </tr>
+        
+          <tr>
+            <td>Ejection Fraction</td>
+            <td>[ <%- data.ejection_fraction %> ]</td>
+          </tr>
+          
+          <tr>
+            <td>Platelets</td>
+            <td>[ <%- data.platelets %> ]</td>
+          </tr>
+          <tr>
+            <td>Serum Creatinine</td>
+            <td>[ <%- data.serum_creatinine %> ]</td>
+          </tr>
+          <tr>
+            <td>Serum Sodium</td>
+            <td>[ <%- data.serum_sodium %> ]</td>
+          </tr>
+          
+          <tr>
+            <td>Time</td>
+            <td>[ <%- data.time %> ]</td>
+          </tr>
+        
+        </table>
+    </div>
+</div>

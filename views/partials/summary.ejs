@@ -1,0 +1,95 @@
+<div class="main">
+    <div class="graph">
+     
+        <style>
+            /* Define the CSS styles for the table */
+            table {
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            th, td {
+              text-align: left;
+              padding: 8px;
+              border-bottom: 1px solid #ddd;
+            }
+            
+            th {
+              background-color: #f2f2f2;
+            }
+          </style>
+        </head>
+        <body>
+          <h1><center>Summary</center></h1>
+
+          
+          <table>
+            <tr class="header-row">
+              <th>Statistic</th>
+              <th>Age</th>
+              <th>Ejection Fraction</th>
+              <th>Creatinine Phosphokinase</th>
+              <th>Platelets</th>
+              <th>Serum Sodium</th>
+              <th>Serum Creatinine</th>
+            </tr>
+            <tr>
+              <td>Min.</td>
+              <td><%= a["Min."] %></td>
+              <td><%= ef["Min."] %></td>
+              <td><%= cp["Min."] %></td>
+              <td><%= p["Min."] %></td>
+              <td><%= ss["Min."] %></td>
+              <td><%= sc["Min."] %></td>
+            </tr>
+            <tr>
+              <td>1st Qu.</td>
+              <td><%= a["1st Qu."] %></td>
+              <td><%= ef["1st Qu."] %></td>
+              <td><%= cp["1st Qu."] %></td>
+              <td><%= p["1st Qu."] %></td>
+              <td><%= ss["1st Qu."] %></td>
+              <td><%= sc["1st Qu."] %></td>
+            </tr>
+            <tr>
+              <td>Median</td>
+              <td><%= a["Median"] %></td>
+              <td><%= ef["Median"] %></td>
+              <td><%= cp["Median"] %></td>
+              <td><%= p["Median"] %></td>
+              <td><%= ss["Median"] %></td>
+              <td><%= sc["Median"] %></td>
+            </tr>
+            <tr>
+              <td>Mean</td>
+              <td><%= a["Mean"] %></td>
+              <td><%= ef["Mean"] %></td>
+              <td><%= cp["Mean"] %></td>
+              <td><%= p["Mean"] %></td>
+              <td><%= ss["Mean"] %></td>
+              <td><%= sc["Mean"] %></td>
+            </tr>
+            <tr>
+              <td>3rd Qu.</td>
+              <td><%= a["3rd Qu."] %></td>
+              <td><%= ef["3rd Qu."] %></td>
+              <td><%= cp["3rd Qu."] %></td>
+              <td><%= p["3rd Qu."] %></td>
+              <td><%= ss["3rd Qu."] %></td>
+              <td><%= sc["3rd Qu."] %></td>
+            </tr>
+            <tr>
+              <td>Max.</td>
+              <td><%= a["Max."] %></td>
+              <td><%= ef["Max."] %></td>
+              <td><%= cp["Max."] %></td>
+              <td><%= p["Max."] %></td>
+              <td><%= ss["Max."] %></td>
+              <td><%= sc["Max."] %></td>
+            </tr>
+          </table>
+        </body>
+
+
+    </div>
+</div>
